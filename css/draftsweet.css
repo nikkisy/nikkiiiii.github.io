@@ -1,10 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=News+Cycle",
-            "https://fonts.googleapis.com/css?family=Comfortaa", 
-            "https://fonts.googleapis.com/css?family=Sacramento",
-            "https://fonts.googleapis.com/css?family=Lobster+Two|Sacramento", 
-            "https://fonts.googleapis.com/css?family=Poiret+One");
+@import url("https://fonts.googleapis.com/css?family=News+Cycle");
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Lobster+Two|Sacramento');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 header {}
+
+
 
 h6 {
     color: darkgray;
@@ -28,14 +30,12 @@ h3 {
 }
 #rightbar {
    color: forestgreen;
-   font-family: Comfortaa;
+    font-family: Comfortaa;
 }
 
 body {
-    background-image: url(back.jpg);
+    background-image: url(../images/back.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+	background-position: center;
     background-size: cover;
-
-
 }
